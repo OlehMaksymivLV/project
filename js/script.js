@@ -83,4 +83,5 @@
 //     isClose = true;
 
 console.log(isChecked || !isClose);    
+const myNewName = "Ostap";
 

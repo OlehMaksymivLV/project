@@ -82,6 +82,26 @@
 // const isChecked = true,
 //     isClose = true;
 
-console.log(isChecked || !isClose);    
-const myNewName = "Ostap";
+// console.log(isChecked || !isClose);    
+// const myNewName = "Ostap";
 
+ const numberOfFilms = +prompt('How many films have you seen?', '');
+ 
+console.log(numberOfFilms);
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+const a = prompt('What is your last movie?', ''),
+    b = prompt('How would you rait it?', '');
+
+ 
+personalMovieDB.movies[a] = b;
+
+
+console.log(personalMovieDB);
